@@ -1,11 +1,18 @@
 {
-  "0":{
-    "title":"Welcome to Bark-it.",
-    "author":"Bark-it",
-    "content":"Welcome to the worst social media ever consisting of the worst security and the second worst user base (first goes to twitter.)",
-    "likes":1,
-    "locked":true,
-    "comments":{}
-    }
+  "0": {
+    "title": "Welcome to Bark-it.",
+    "author": "Bark-it",
+    "content": "Welcome to the worst social media ever consisting of the worst security and the second worst user base (first goes to twitter).",
+    "likes": 1,
+    "locked": true,
+    "comments": {}
+  },
+  "1": {
+    "title": "post1",
+    "author": "mega32",
+    "content": "essss",
+    "likes": 1,
+    "locked": false,
+    "comments": {}
+  }
 }
-

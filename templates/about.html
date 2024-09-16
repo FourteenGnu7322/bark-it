@@ -1,0 +1,146 @@
+<style>
+
+</style>
+
+
+<script>
+	const list = ["about","tos","privacy","faq"]
+
+	function switchtab(num) {
+
+		for (i=0;i<4;i++) {
+			var select = document.getElementById(list[i]);
+			if (i==num) {
+				select.style.display = "block"
+			} 
+			else {
+				select.style.display = "none"
+			}
+		}
+	}
+</script>
+
+<center>
+	<button onclick="switchtab(0)" style="width: 10%;">About</button>
+	<button onclick="switchtab(1)" style="width: 10%;">Terms of Service</button>
+	<button onclick="switchtab(2)" style="width: 10%;">Privacy Policy</button>
+	<button onclick="switchtab(3)" style="width: 10%;">FAQ</button>
+</center>
+<br>
+
+<div class = posts id="about" style="display: none;">
+	<center>
+		<h1>Welcome to Bark-IT</h1><br>
+		<h2>The second worst social media</h2><br>
+		<br>
+		<div class=post>
+		<h3>How it started:</h3><br>
+		<p>I woke up one day and since I was quarantined and didn't feel like doing school, I made something called <b>Bark</b>. Bark was a public board until I decided to name it Bark-IT with 	the promise of being better than twitter. Me and bigjango rewrote bark-it to have accounts and more, but it was poorly written and eventually we turned to flask to hopefully make things 	better. I started quite a while ago before writing this. I lost motivation until today, and today is everyday until Bark-IT passes twitter and restores hope and freedom to the 	internet....</p>
+		</div>
+		<br>
+		<br>
+
+	</center>
+</div>
+
+<div class = posts id="privacy" style="display: none;">
+	<center>
+		<h1>Privacy Policy</h1><br>
+		<h2>The data we store for personal use</h2><br>
+
+	</center>
+</div>
+
+<div class = posts id="faq" style="display: none;">
+	<center>
+		<h1>FAQ</h1><br>
+		<h2>Commonly asked questions</h2><br>
+		<div class=post>
+			<h2>FAQ</h2>
+			<br>
+			<h3>How do I post? I've tried and I can't :'(</h3><br>
+			<p>Just simply hit register and make a kewl password and username</p>
+			<br>
+			<h3>When will BARK-it be released?</h3><br>
+			<p>When it's finished.</p>
+			<br>
+			<h3>I GOT A BUG!?!!??!?!?!:</h3><br>
+			<p>Report it in the </p><a href=https://discord.gg/EqYAQDr8qv>discord</a> or add an issue on the <a href=https://github.com/megaboi2005/bark-it>github</a>
+			<br>
+			<h3>I wanna help</h3>
+			<br>Fork it on <a href=https://github.com/megaboi2005/bark-it>github</a>, make your changes and submit a pull request.<br>
+			<br>
+			<h4>And that's it, if you have any questions just join the discord and I'll give a quick answer</h4>
+			</div>
+	</center>
+</div>
+
+<div class = posts id="tos" style="display: none;">
+	<center>
+		<h1>Bark-IT Guidelines version 1</h1><br>
+		<h2>Guidelines for freedom (incomplete)</h2><br>
+		<p>
+			The Bark-IT guidelines exist to only show content to those who want to see it. If one of these guidelines doesn't make sense to you, join the discord, we can talk it out with you. 
+		</p>
+		<br>
+		<p>
+			The text below may be disturbing to most users, if you use common sense, you should be fine to post under our services, without reading through the terms of service.
+		</p>
+		<br>
+		<h3>Posts and content</h3>
+		<p>
+			Any data stored in our services, under your account, becomes ours and can be deleted by our moderators if it breaks any of the terms below. In some cases, this may become a ban. Ban's can be appealed through the steps in the Appeals section.
+		</p>
+		<br>
+		<p>Some examples of posts & content are…</p><br>
+		<ul>
+			<l>Profile Pictures, or avatars</l>
+			<l>Images attached to posts</l>
+			<l>Posts</l>
+			<l>Usernames</l>
+			<l>About page</l>
+			<l>Channels</l>
+		</ul>
+		<h3>Warnings</h3>
+		<p>
+			Any posts or content breaking our guidelines will receive a warning, then a ban if anything is broken again. The only exception would be illegal content being posted to the site, in most cases, that would lead to an account termination. 
+		</p>
+		<h3>Simply put...</h3><br>
+		<h4>What the User can do</h4>
+		<p>
+			The User is allowed to make posts with images, modify their profile picture, and their profile with something that follows the guidelines.
+		</p>
+		<h4>What the User <b>can't</b> do</h4>
+		<p>
+			The User isn't allowed to exploit the api, break the guidelines, or scam individuals.
+		</p>
+		<h3>Content that contains gore, nudity or a sexual meaning</h3>
+		<p>
+			Any content containing gore, must be marked with the 18+ tag, if such content can't be posted under such tag, (for example, profile pictures) then it doesn't apply and will result in a warning. Some cases may apply even in a text format.
+		</p>
+		<h4>Some examples of gore, nudity or content with a sexual meaning are</h4>
+		<ul>
+			<li>Content with visible human organs.</li>
+			<li>Content displaying the separation of a human and a body part.</li>
+			<li>Content displaying humans suffering physically.</li>
+			<li>Content displaying one's genitals.</li>
+			<li>Content displaying sexual sounds.</li>
+		</ul>
+		<h3>Bannable content that contains gore, nudity or a sexual meaning (even with 18+ tag, simply because they are illegal)</h3>
+		<ul>
+			<li>Zoophilia - content that displays anything showing off an animal or an animal like being in a sexual manner</li>
+			<li>Necrophilia - content showing off a corpse of a human in a sexual way</li>
+			<li>Pedophilia - content exploiting children in a sexual way</li>
+		</ul>
+		<h3>Exploiting the api</h3>
+		<p>
+			The api exists for people to make bots and clients for personal use. If it is used to crash or cause a heavy load on the server, it will lead to an ip ban from all of Bark-it's services. 
+		</p>
+		<h3>Some examples of Exploiting the api</h3>
+		<ul>
+			<li>Sending a mass amount of packets containing post data</li>
+			<li>Uploading images intended to crash other users</li>
+			<li>Crashing the service</li>
+		</ul>
+	</center>
+</div>
